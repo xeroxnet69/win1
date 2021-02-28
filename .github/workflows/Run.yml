@@ -9,8 +9,6 @@ jobs:
     timeout-minutes: 9999
 
     steps:
-    
-    
     - name: Download NGROK - NSSM.
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
